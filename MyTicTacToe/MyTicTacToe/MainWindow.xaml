@@ -1,0 +1,22 @@
+﻿<Window x:Class="MyTicTacToe.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MyTicTacToe"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="btn1" Content="" HorizontalAlignment="Left" Margin="100,100,0,0" VerticalAlignment="Top" Width="50" Height="50" FontSize="36" Tag="1" Click="btnPlay_Click"/>
+        <Button x:Name="btn2" Content="" HorizontalAlignment="Left" Margin="200,100,0,0" VerticalAlignment="Top" Width="50" Height="50" FontSize="36" Tag="2" Click="btnPlay_Click"/>
+        <Button x:Name="btn3" Content="" HorizontalAlignment="Left" Margin="300,100,0,0" VerticalAlignment="Top" Width="50" Height="50" FontSize="36" Tag="3" Click="btnPlay_Click"/>
+        <Button x:Name="btn4" Content="" HorizontalAlignment="Left" Margin="100,200,0,0" VerticalAlignment="Top" Width="50" Height="50" FontSize="36" Tag="4" Click="btnPlay_Click"/>
+        <Button x:Name="btn5" Content="" HorizontalAlignment="Left" Margin="200,200,0,0" VerticalAlignment="Top" Width="50" Height="50" FontSize="36" Tag="5" Click="btnPlay_Click"/>
+        <Button x:Name="btn6" Content="" HorizontalAlignment="Left" Margin="300,200,0,0" VerticalAlignment="Top" Width="50" Height="50" FontSize="36" Tag="6" Click="btnPlay_Click"/>
+        <Button x:Name="btn7" Content="" HorizontalAlignment="Left" Margin="100,300,0,0" VerticalAlignment="Top" Width="50" Height="50" FontSize="36" Tag="7" Click="btnPlay_Click"/>
+        <Button x:Name="btn8" Content="" HorizontalAlignment="Left" Margin="200,300,0,0" VerticalAlignment="Top" Width="50" Height="50" FontSize="36" Tag="8" Click="btnPlay_Click"/>
+        <Button x:Name="btn9" Content="" HorizontalAlignment="Left" Margin="300,300,0,0" VerticalAlignment="Top" Width="50" Height="50" FontSize="36" Tag="9" Click="btnPlay_Click"/>
+        <Button x:Name="btnReset" Content="RESET" HorizontalAlignment="Left" Margin="500,300,0,0" VerticalAlignment="Top" Width="150" Height="50" FontSize="36" Tag="1" Click="btnReset_Click"/>
+        <TextBlock x:Name="txtInfo" HorizontalAlignment="Left" Margin="483,100,0,0" Text="X's Turn" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="36" Width="184" TextAlignment="Center"/>
+    </Grid>
+</Window>
